@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- box icons -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>Personal Website</title>
+</head>
+<body>
+    <!-- header design -->
+
+    <header class="header">
+        <a href="#" class="logo">Joey.</a>
+
+        <div class="bi bi-list" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#projects">Projetos</a>
+            <a href="#contact">Contato</a>
+
+            <span class="active-nav"></span>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Olá, eu sou o <span>Joedson Ferreira</span></h1>
+            <div class="text-animate">
+                <h3>Desenvolvedor Frontend</h3>
+            </div>
+            <!-- <p>
+                Deseja contratar um programador eficiente para entregar maior valor ao seu projeto? Você está no lugar certo!
+            </p> -->
+
+            <div class="btn-box">
+                <a href="#" class="btn">Fale comigo</a>
+                <a href="#" class="btn">Currículo</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/joedson_joey/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/joedson-ferreira-web-developer/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+        <div class="home-imghover"></div>
+    </section>
+
+    <hr />
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+
+        <h2 class="heading">Sobre</h2>
+
+        <div class="about-img">
+            <div></div>
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>Desenvolvedor Frontend!</h3>
+            <p>
+                Olá, me chamo Joedson Ferreira, sou entusiasta por programação, e tecnologia é a area que eu escolhi para ser o melhor profissional possível. Desde 2020, venho me dedicando aos estudos na area de desenvolvimento web e mobile, comecei com cursos de Programação Web da Udemy e com o módulo Ignite da Rocketseat, onde o foco desses cursos são o Javascript e suas tecnologias, e dali em diante tenho praticado bastante com projetos reais e práticos e conseguido realizar algums freelancers com aplicativos para salão de beleza, hamburgueria e academia, além de alguns projetos com landing pages.
+            </p>
+            <div class="btn-box btns">
+                <a href="#" class="btn">Me contrate</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- education section design -->
+
+    <!-- <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2017 - 2018
+                            </div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2018 - 2019
+                            </div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2019 - 2020
+                            </div>
+                            <h3>Master Degree - University</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2017 - 2018
+                            </div>
+                            <h3>Web Developer - Company</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2018 - 2019
+                            </div>
+                            <h3>Web Developer - Company</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">
+                                <i class="bx bxs-calendar"></i> 2019 - 2020
+                            </div>
+                            <h3>Web Developer - Company</h3>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- skills section design -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Minhas <span>Habilidades</span></h2>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapped swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>HTML</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>CSS</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>JAVASCRIPT</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://w7.pngwing.com/pngs/915/519/png-transparent-typescript-hd-logo-thumbnail.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>TYPESCRIPT</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="./assets/nextjs.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>NEXT JS</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://cdn1.iconfinder.com/data/icons/programing-development-8/24/react_logo-512.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>REACT JS/NATIVE</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://www.daggala.com/static/228867c3668e439101821568a8a03b54/19ca5/sc.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>STYLED COMPONENTS</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>TAILWIND CSS</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>NODE JS</h2>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" alt="html" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2>PHP LARAVEL</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projetos</h2>
+        <div class="slide-projects">
+            <div class="slides">
+
+                <input type="radio" name="radio-btn" id="trail1" />
+                <input type="radio" name="radio-btn" id="trail2" />
+                <input type="radio" name="radio-btn" id="trail3" />
+                <input type="radio" name="radio-btn" id="trail4" />
+
+                <div class="slide first">
+                    <div class="details">
+                        <h1>Natty App</h1>
+                        <p>
+                            Aplicativo para cadastro e reservas de serviços em salão de beleza
+                        </p>
+                        <button>Leia mais</button>
+                    </div>
+
+                    <!-- outro slide ilustrando o projeto -->
+
+                    <div class="illustration">
+                        <div class="illustration-container" id="project1">
+                            <input type="radio" name="slide1" id="slide1-project1" checked />
+                            <input type="radio" name="slide1" id="slide2-project1" />
+                            <input type="radio" name="slide1" id="slide3-project1" />
+                            <input type="radio" name="slide1" id="slide4-project1" />
+                            <input type="radio" name="slide1" id="slide5-project1" />
+                            <input type="radio" name="slide1" id="slide6-project1" />
+
+                            <div class="cards">
+                                <label for="slide1-project1" id="slide1">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-login-user.jpg" alt="login" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide2-project1" id="slide2">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-register-user.jpg" alt="signup" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide3-project1" id="slide3">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-dashboard.jpg" alt="home" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide4-project1" id="slide4">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-services.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide5-project1" id="slide5">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/make-reservation.png" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide6-project1" id="slide6">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-my-reservations.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="details">
+                        <h1>Natty Admin</h1>
+                        <p>
+                            Aplicativo para administrador do Natty App. Nele, o administrador pode controlar todo o fluxo de reservas, cadastrar serviços e ter uma previsão de faturamento diário. 
+                        </p>
+                        <button>Leia mais</button>
+                    </div>
+
+                    <!-- outro slide ilustrando o projeto -->
+
+                    <div class="illustration">
+                        <div class="illustration-container" id="project2">
+                            <input type="radio" name="slide2" id="slide1-project2" checked />
+                            <input type="radio" name="slide2" id="slide2-project2" />
+                            <input type="radio" name="slide2" id="slide3-project2" />
+                            <input type="radio" name="slide2" id="slide4-project2" />
+                            <input type="radio" name="slide2" id="slide5-project2" />
+                            <input type="radio" name="slide2" id="slide6-project2" />
+
+                            <div class="cards">
+                                <label for="slide1-project2" id="slide1">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-login.jpg" alt="login" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide2-project2" id="slide2">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-dashboard-admin.jpg" alt="signup" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide3-project2" id="slide3">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-reservations.jpg" alt="home" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide4-project2" id="slide4">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-services-admin.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide5-project2" id="slide5">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/natty-schedule.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide6-project2" id="slide6">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/editservice.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="details">
+                        <h1>Top Gym</h1>
+                        <p>
+                            Aplicativo mobile para alunos de academia. Nele, o aluno pode montar seu próprio treino semanal, tirar dúvidas quanto a execução do exercício com videos no próprio aplicativo, marcar o treino como concluído, além de poder manipular os exercícios livremente durante o dia ou semana.
+                        </p>
+                        <button>Leia mais</button>
+                    </div>
+
+                    <!-- outro slide ilustrando o projeto -->
+
+                    <div class="illustration">
+                        <div class="illustration-container" id="project3">
+                            <input type="radio" name="slide3" id="slide1-project3" checked />
+                            <input type="radio" name="slide3" id="slide2-project3" />
+                            <input type="radio" name="slide3" id="slide3-project3" />
+                            <input type="radio" name="slide3" id="slide4-project3" />
+                            <input type="radio" name="slide3" id="slide5-project3" />
+                            <input type="radio" name="slide3" id="slide6-project3" />
+                            <input type="radio" name="slide3" id="slide7-project3" />
+
+                            <div class="cards">
+                                <label for="slide1-project3" id="slide1">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/top-gym-login.png" alt="login" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide2-project3" id="slide2">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/top-gym-signup.png" alt="signup" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide3-project3" id="slide3">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/top-gym-home.png" alt="home" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide4-project3" id="slide4">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/Exercise.png" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide5-project3" id="slide5">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/webvideo.png" alt="webvideo" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide6-project3" id="slide6">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/History.png" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                                <label for="slide7-project3" id="slide7">
+                                    <div class="card">
+                                        <div class="image">
+                                            <img src="./assets/top-gym-perfil.png" alt="" />
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="details">
+                        <h1>Hampix App</h1>
+                        <p>
+                            Aplicativo mobile para comandas em restaurantes/pizzarias. O garçom pode fazer o pedido do cliente pelo app e o pedido vai direto para o sistema de cozinha.
+                        </p>
+                        <button>Leia mais</button>
+                    </div>
+
+                    <!-- outro slide ilustrando o projeto -->
+
+                    <div class="illustration">
+                        <div class="inner"></div>
+                    </div>
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div> 
+
+            </div>
+
+            <div class="manual-navigation">
+                <label for="trail1" class="manual-btn"></label>
+                <label for="trail2" class="manual-btn"></label>
+                <label for="trail3" class="manual-btn"></label>
+                <label for="trail4" class="manual-btn"></label>
+            </div>
+        </div>           
+    </section>
+
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Entre com <span>Contato!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Nome completo" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email" required>
+                    <span class="focus"></span>
+                </div>
+            </div>
+
+            <!-- <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Telefone" required>
+                    <span class="focus"></span>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus"></span>
+                </div>
+            </div> -->
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                <span class="focus"></span>
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer section design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Joedson Ferreira | All rights reserved</p>
+        </div>
+
+        <div class="footer-icontop">
+            <a href="#"><i class="bi bi-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
